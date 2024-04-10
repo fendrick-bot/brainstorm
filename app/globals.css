@@ -1,3 +1,21 @@
+
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* background: linear-gradient( 90deg, rgb(36, 0, 78), rgb(0, 33, 90)); */
+  background-image: linear-gradient( 110.1deg,  hsl(245, 75%, 52%) 44.2%, #b3adff 138.2% );  
+  /* color: white; */
+  
+
+  
+  /* background-image: linear-gradient( 110.1deg,  rgb(74, 7, 199) 44.2%, rgb(255, 71, 206) 138.2% ); */
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,18 +34,13 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/* body {
+} */
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+

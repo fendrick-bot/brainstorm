@@ -1,0 +1,12 @@
+#imageDiv{
+    margin: 50px 50px;
+    width: fit-content;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #a2ffae;
+    border-radius: 15px;
+    box-shadow: -2px 5px 12px rgb(57, 57, 57);
+    border: 6px solid white;
+    opacity: 50%;
+}
