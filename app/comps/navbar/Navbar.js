@@ -16,8 +16,8 @@ import { IoLogoOctocat } from "react-icons/io";
 
 import Image from "next/image";
 import Link from "next/link";
-import Mainlogo from "@/resources/logo-bs.png";
-import boy from "@/resources/boy.png";
+import Mainlogo from "../../../resources/mainLogo.png";
+import boy from "../../../resources/boy.png";
 
 import { useState } from "react";
 
@@ -69,27 +69,6 @@ export default function Navbar() {
                 </div>
             </div>
         </div>
-        // <div id="navbar">
-        //     <div id="logo-div">
-        //         <div id="logo"><Image src={Mainlogo} width={38} unoptimized /></div>
-        //         <h2 id="logo-text">Brain`storm</h2>
-        //     </div>
-        //     <ul id="nav-ul">
-        //         <li className="nav-li"><GoHomeFill />
-        //             <div id="tooltip-no-arrow" role="tooltip" class="absolute z-10 inline-block px-3 py-2 text-sm font-medium text-white rounded-lg shadow-sm opacity-100 tooltip dark:bg-gray-700">
-        //                 Tooltip content
-        //             </div>
 
-        //         </li>
-        //         <li className="nav-li"><PiShareNetworkFill /> Connect</li>
-        //         <li className="nav-li"><IoPeople /> Friends</li>
-        //         <li className="nav-li"><PiGearSixFill /> Settings</li>
-        //         <li className="nav-li"><RiFeedbackFill /> Feedback</li>
-        //         <li className="nav-li"><HiDocumentText /> Privacy & Policy</li>
-
-        //     </ul>
-
-
-        // </div>
     )
 }

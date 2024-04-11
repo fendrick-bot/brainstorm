@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *{
   margin: 0;padding: 0;
@@ -5,7 +8,8 @@
 }
 body{
   /* background: linear-gradient( 90deg, rgb(36, 0, 78), rgb(0, 33, 90)); */
-  background-image: linear-gradient( 110.1deg,  hsl(245, 75%, 52%) 44.2%, #b3adff 138.2% );  
+  /* background-image: linear-gradient( 110.1deg,  hsl(245, 75%, 52%) 44.2%, #b3adff 138.2% );   */
+  background-color: black;
   /* color: white; */
   
 
@@ -16,9 +20,6 @@ body{
   overflow: hidden;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;

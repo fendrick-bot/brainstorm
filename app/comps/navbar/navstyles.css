@@ -34,13 +34,13 @@
 } */
 
 :root {
-    --background: #74beff;
+    --background: linear-gradient(90deg,rgb(47, 149, 245), rgb(81, 153, 255) );
     --navbar-width: 256px;
     --navbar-width-min: 80px;
-    --navbar-dark-primary: #000247e1;
-    --navbar-dark-secondary: #000e6b;
+    --navbar-dark-primary: #1d1d1d;
+    --navbar-dark-secondary: #373737;
     --navbar-light-primary: #f5f6fa;
-    --navbar-light-secondary: #8392a5;
+    --navbar-light-secondary: #a1aebe;
   }
   
   #nav-toggle:checked ~ #nav-header {
@@ -97,6 +97,7 @@
     top: 0.5vw;
     height: calc(100% - 1vw);
     background: var(--navbar-dark-primary);
+    /* background: linear-gradient(90deg, #8e2de2, #4a00e0); */
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -221,7 +222,7 @@
     left: -160px;
     height: 36px;
     padding: 7px 14px;
-    background: rgba(223, 223, 223, 0.313);
+    background: rgba(223, 223, 223, 0.55);
     border-radius: 10px;
     transition: all 0.1s;
     border: 1px solid rgb(132, 132, 132);
