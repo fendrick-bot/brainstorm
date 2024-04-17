@@ -28,29 +28,29 @@ export default function Navbar() {
             <input id="nav-toggle" type="checkbox"/>
             <div id="nav-header">
                 <div id="nav-title"><Link href='/'> <Image src={Mainlogo} width={40} unoptimized /></Link>Brain`Strom</div>
-                <label for="nav-toggle"><span id="nav-toggle-burger"></span></label>
+                <label htmlFor="nav-toggle"><span id="nav-toggle-burger"></span></label>
                 <hr />
             </div>
             <div id="nav-content">
-                <div class="nav-button"><div className="nav-icons"><GoHomeFill /></div><span>Home</span>
+                <div className="nav-button"><div className="nav-icons"><GoHomeFill /></div><span>Home</span>
                 <div id="home-tooltip" className="nav-tooltip-div">Home</div>
                 </div>
 
-                <div class="nav-button"><div className="nav-icons"><PiShareNetworkFill /></div><span>Connect</span>
+                <div className="nav-button"><div className="nav-icons"><PiShareNetworkFill /></div><span>Connect</span>
                 <div id="home-tooltip" className="nav-tooltip-div">Connect</div></div>
-                <div class="nav-button"><div className="nav-icons"><IoPeople /></div><span>Friends</span>
+                <div className="nav-button"><div className="nav-icons"><IoPeople /></div><span>Friends</span>
                 <div id="home-tooltip" className="nav-tooltip-div">Friends</div></div>
                 <hr />
-                <div class="nav-button"><div className="nav-icons"><PiGearSixFill /></div><span>Settings</span>
+                <div className="nav-button"><div className="nav-icons"><PiGearSixFill /></div><span>Settings</span>
                 <div id="home-tooltip" className="nav-tooltip-div">Settings</div></div>
-                <div class="nav-button"><div className="nav-icons"><RiFeedbackFill /></div><span>Feedback</span>
+                <div className="nav-button"><div className="nav-icons"><RiFeedbackFill /></div><span>Feedback</span>
                 <div id="home-tooltip" className="nav-tooltip-div">Feedback</div></div>
-                <div class="nav-button"><div className="nav-icons"><HiDocumentText /></div><span>Privacy & Policy</span>
+                <div className="nav-button"><div className="nav-icons"><HiDocumentText /></div><span>Privacy & Policy</span>
                 <div id="home-tooltip" className="nav-tooltip-div">Privacy & Policy</div></div>
-                <div class="nav-button"><div className="nav-icons"><IoLogoOctocat /></div><span>About</span>
+                <div className="nav-button"><div className="nav-icons"><IoLogoOctocat /></div><span>About</span>
                 <div id="home-tooltip" className="nav-tooltip-div">About</div></div>
                 <hr />
-                <div class="nav-button"><div className="nav-icons"><BsPersonHearts /></div><span>My Profile</span>
+                <div className="nav-button"><div className="nav-icons"><BsPersonHearts /></div><span>My Profile</span>
                 <div id="home-tooltip" className="nav-tooltip-div">My Profile</div></div>
                 <div id="nav-content-highlight"></div>
                 
@@ -60,7 +60,7 @@ export default function Navbar() {
                 <div id="nav-footer-heading">
                     <div id="nav-footer-avatar"><Image src={boy} width={40} unoptimized /></div>
                     <div id="nav-footer-titlebox"><a id="nav-footer-title">Fendrick</a><span id="nav-footer-subtitle">Admin</span></div>
-                    <label for="nav-footer-toggle"><div className="nav-icons"><FaCaretDown /></div></label>
+                    <label htmlFor="nav-footer-toggle"><div className="nav-icons"><FaCaretDown /></div></label>
                 </div>
                 <div id="nav-footer-content">
                     <p>Heyy Everyone! I am Aditya Raj. I am the creator of <b>Brain`Storm</b>. This is a free site to interact with random people and discuss with them about intersting topics. Hope you guys like it...
